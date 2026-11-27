@@ -127,6 +127,22 @@ h3{font-size:1.27rem;line-height:1.35}
 .teacher-column .teacher-controls figcaption{margin:4px 0 0;font-size:.71rem;line-height:1.15;font-weight:500;color:var(--muted)}
 .teacher-column .teacher-result{margin-top:auto;padding-top:8px;border-top:1px solid var(--line)}
 .teacher-column .teacher-result figcaption{font-size:.78rem}
+.demo-frame[data-active-group="showcase"] .case-results{
+  display:grid;
+  grid-template-columns:minmax(0,690px) max-content;
+  align-items:start;
+  justify-content:space-between;
+  gap:16px;
+  margin-top:20px;
+}
+.demo-frame[data-active-group="showcase"] .case-results .case-footer{
+  display:flex;
+  flex-direction:column;
+  grid-column:2;
+  grid-row:1;
+  margin-top:0;
+}
+.demo-frame[data-active-group="showcase"] .case-results .playback-controls{flex-direction:column;flex-wrap:nowrap}
 .showcase-media{
   --column-gap:18px;
   --condition-gap:8px;
@@ -136,8 +152,9 @@ h3{font-size:1.27rem;line-height:1.35}
   grid-template-columns:minmax(0,calc((100% - var(--column-gap) - 1.5 * (var(--caption-height) + var(--caption-gap) + var(--condition-gap))) / 3)) minmax(0,1fr);
   gap:var(--column-gap);
   align-items:start;
-  max-width:690px;
-  margin-inline:auto;
+  grid-column:1;
+  grid-row:1;
+  margin-top:0;
   font-size:.9rem;
 }
 .showcase-media .input-grid[data-count="2"]{grid-template-columns:1fr;gap:var(--condition-gap);margin-bottom:0}
@@ -191,6 +208,9 @@ nav{gap:14px;font-size:.86rem}
 .demo-frame[data-active-group="teacher"] .case-footer .case-note[hidden]{display:block;visibility:hidden}
 }
 @container (max-width:620px){
+.demo-frame[data-active-group="showcase"] .case-results{grid-template-columns:minmax(0,1fr);gap:12px}
+.demo-frame[data-active-group="showcase"] .case-results .case-footer{grid-column:1;grid-row:2}
+.demo-frame[data-active-group="showcase"] .case-results .playback-controls{flex-direction:row;flex-wrap:wrap}
 .showcase-media{font-size:.76rem}
 }
 @container (max-width:500px){

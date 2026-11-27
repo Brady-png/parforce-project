@@ -6,7 +6,7 @@
 <meta name="description" content="ParForce uses projected particles and surface depth to guide physics-aware video generation.">
 <title>ParForce — Particle Forcing</title>
 <link rel="preload" href="assets/fonts/instrument-serif-latin-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="style.css?v=31">
+<link rel="stylesheet" href="style.css?v=32">
 <script src="gallery-data.js?v=14" defer></script>
 <script src="demo.js?v=22" defer></script>
 </head>
@@ -129,16 +129,18 @@
             <p class="case-prompt" tabindex="0"></p>
           </figure>
         </div>
-        <div class="case-footer">
-          <p class="case-note" tabindex="0" hidden></p>
-          <div class="playback-controls" role="group" aria-label="Video playback">
-            <button type="button" class="button primary" data-play>Play together</button>
-            <button type="button" class="button" data-pause disabled>Pause</button>
+        <div class="case-results">
+          <div class="case-footer">
+            <p class="case-note" tabindex="0" hidden></p>
+            <div class="playback-controls" role="group" aria-label="Video playback">
+              <button type="button" class="button primary" data-play>Play together</button>
+              <button type="button" class="button" data-pause disabled>Pause</button>
+            </div>
           </div>
-        </div>
-        <div class="case-media">
-          <div class="media-grid input-grid"></div>
-          <div class="media-grid result-grid"></div>
+          <div class="case-media">
+            <div class="media-grid input-grid"></div>
+            <div class="media-grid result-grid"></div>
+          </div>
         </div>
       </div>
     </div>
