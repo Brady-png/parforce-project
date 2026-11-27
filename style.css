@@ -38,9 +38,10 @@ sup{font-size:.67em;line-height:0}
 .institutions b{font-weight:400}
 .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
 .hero-copy .actions{justify-content:center;text-shadow:none}
-.hero-copy .button:not(.primary){background:#222222ea;border-color:#6a6a6a}
-.hero-copy .button:not(.primary):hover{background:var(--active)}
-.hero-copy .button:disabled{opacity:.6;cursor:default}
+.hero-copy .actions .button{gap:.55em;min-height:44px;padding:10px 16px;border-radius:10px;transition:background-color .16s,border-color .16s}
+.hero-copy .actions :is(svg,.button-symbol){flex:none;width:1.2em;height:1.2em;line-height:1.2}
+.hero-copy .actions .button:not(.primary){background:#222222ea;border-color:#707070}
+.hero-copy .actions .button:not(.primary):hover{background:#363636;border-color:#b0b0b0}
 .motion-toggle{position:absolute;z-index:2;bottom:14px;right:max(18px,calc((100% - 1190px) / 2));background:var(--control);color:var(--muted);border:1px solid var(--line);border-radius:6px;min-width:84px;padding:7px 10px;font-size:.875rem}
 .motion-toggle:hover{color:var(--ink);border-color:var(--muted)}
 .button{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;border:1px solid var(--line);color:var(--ink);border-radius:7px;background:var(--surface,transparent);font-size:.94rem;line-height:1.35;font-weight:600}
