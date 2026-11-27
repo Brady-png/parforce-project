@@ -1,0 +1,66 @@
+{
+  "Ours": [
+    {
+      "label": "Particles (PSS)",
+      "src": "assets/paper-qualitative/cloth-over-teapot/inputs-2.mp4",
+      "poster": "assets/paper-qualitative/cloth-over-teapot/inputs-2.jpg"
+    },
+    {
+      "label": "Surface depth (SDS)",
+      "src": "assets/paper-qualitative/cloth-over-teapot/inputs-3.mp4",
+      "poster": "assets/paper-qualitative/cloth-over-teapot/inputs-3.jpg"
+    }
+  ],
+  "Go-with-the-Track": [
+    {
+      "label": "Visible point tracks",
+      "src": "assets/teacher-conditions/cloth-over-teapot/gwwt-tracks.mp4",
+      "poster": "assets/teacher-conditions/cloth-over-teapot/gwwt-tracks.jpg",
+      "receipt": "Exact official loader preview verified against its inference receipt.",
+      "sourceSha256": "5eeb9af24a31a8afd9dea304e7b9567987e8ec7814d6049fb5e82b5caebe73b9"
+    }
+  ],
+  "RealWonder": [
+    {
+      "label": "Rendered RGB proxy",
+      "src": "assets/teacher-conditions/cloth-over-teapot/realwonder-rgb-proxy.mp4",
+      "poster": "assets/teacher-conditions/cloth-over-teapot/realwonder-rgb-proxy.jpg",
+      "receipt": "Synthetic RGB input from the archived conditioning pack.",
+      "sourceSha256": "7dc1433a48ab63024734e1e3ca1792cb06d93d88aed90121507d3c56e34d9fa8"
+    },
+    {
+      "label": "Driving optical flow",
+      "src": "assets/teacher-conditions/cloth-over-teapot/realwonder-flow.mp4",
+      "poster": "assets/teacher-conditions/cloth-over-teapot/realwonder-flow.jpg",
+      "receipt": "Color visualization of the archived flow used to warp noise.",
+      "sourceSha256": "7dc1433a48ab63024734e1e3ca1792cb06d93d88aed90121507d3c56e34d9fa8"
+    }
+  ],
+  "Go-with-the-Flow": [
+    {
+      "label": "Driving optical flow",
+      "src": "assets/teacher-conditions/cloth-over-teapot/gwf-flow.mp4",
+      "poster": "assets/teacher-conditions/cloth-over-teapot/gwf-flow.jpg",
+      "receipt": "Color visualization of the archived flow used to warp noise.",
+      "sourceSha256": "4aec35fb1d9d01c38413e7494b899e68c18067764fecbfbcd7ceb2900626a459"
+    }
+  ],
+  "Tora": [
+    {
+      "label": "Sparse point trajectories",
+      "src": "assets/teacher-conditions/cloth-over-teapot/tora-tracks.mp4",
+      "poster": "assets/teacher-conditions/cloth-over-teapot/tora-tracks.jpg",
+      "receipt": "Rendered from the model input coordinates captured in the inference receipt.",
+      "sourceTrackSha256": {
+        "00.txt": "4501280d0d640c97c9390b2e5785d6c9d292db3eac86990512453fa2ea224f05",
+        "01.txt": "246486767228c2f5df649a3f3ea05c30943877781b7f3b9aa3dd3ccc12f89eff",
+        "02.txt": "115d9556db9b5e3559532c07dc2f2a9b194add0232e0ee0291a8b2f0f47ea137",
+        "03.txt": "fbef345b5233c70c7f3b8386aa757ba8fd305c082567a0733d81ccb9affd5580",
+        "04.txt": "ecf30d7579d4265b3006f05bce5ae544f2ee6e14df8f0aa629baf2130c174fe6",
+        "05.txt": "916c6d57608c6a23370ca979b02abcef005e46e59070332f9aca3290ae5ed57a",
+        "06.txt": "2609dc5808c205afe0056a73b02d04f3ebf27aa7e4534134c7e2a17ad56b5d7a",
+        "07.txt": "52e75d4f36312ee4a60b93d5fdbe033d49e73f35538cc187460fa690b2777614"
+      }
+    }
+  ]
+}

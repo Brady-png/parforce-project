@@ -1,0 +1,310 @@
+{
+  "figures": [
+    {
+      "sha256": "8a3fd64134ab10c2d9958424c0149b43dda9c8d2792fcbe17a962ccf30d46ccd",
+      "size": [
+        1800,
+        679
+      ],
+      "file": "teaser.webp",
+      "source": "Figure from the arXiv submission source bundle",
+      "source_sha256": "54125a826c43a9bd290f242dafb7edc8ac7acd284fe13c51c879db9e59dcec14"
+    },
+    {
+      "sha256": "9a8001e92e6fa6d6f1687fcf38e7cb2fa8e102b9710861d34f48488a95ed6c62",
+      "size": [
+        2032,
+        532
+      ],
+      "file": "method.webp",
+      "source": "Figure from the arXiv submission source bundle",
+      "source_sha256": "077ebb63a4224a9c50b892178fe1011cf3c30f54ef6bf6031e6ace003fa5575e"
+    }
+  ],
+  "demos": [
+    {
+      "title": "curtain",
+      "model": "H3 Teacher",
+      "source_case": "real_curtain_open_window_854116__default",
+      "variant": "Archived same-case camera-letterbox output. Video identity differs from the paper keyframe source.",
+      "release_review": "Contains a real-source reference frame. Confirm source credit and public web redistribution.",
+      "media": {
+        "first-frame.webp": {
+          "sha256": "5799be77fd59b10f7917f0d9f03a1c1c70eb850bc69cce10e8b3bebcddd3b0fc",
+          "size": [
+            384,
+            256
+          ],
+          "source_sha256": "d245652e66fdbf971bf2cd3cc96709cf74e902e892fe4f931686076bd57a5583"
+        },
+        "result.mp4": {
+          "sha256": "ecf416b3d04c53b965c22932547e5051782a785a25dce941365d825f8d621004",
+          "source_sha256": "f4e193e1e60e4eaf66248a1ed02ae49a793c02fbc8e7c011106ac47e3ae0e070",
+          "frames": 90,
+          "fps": "24/1",
+          "size": [
+            576,
+            324
+          ],
+          "seconds": 3.75
+        },
+        "poster.webp": {
+          "sha256": "4b13cad26798d844e8fefac9c8c55239ab04b599ea601a2ed06dec030ab986a8",
+          "size": [
+            576,
+            324
+          ],
+          "presentation_time_seconds": 1.875
+        },
+        "particles.mp4": {
+          "sha256": "648c58f1a0ab74ff2a00ae86ecc83d7931d0afd2a8ee972010ca8604f1ba0a6c",
+          "source_sha256": "e8ce354c3cd9b006cdb471b95e0197c34d69dbc566b2d1c36b82bf7da28dec6d",
+          "frames": 49,
+          "fps": "12/1",
+          "size": [
+            384,
+            256
+          ],
+          "seconds": 4.083333
+        },
+        "depth.mp4": {
+          "sha256": "f9b73ec2c808cde5d3fc92683119e5d39bf0da81f8afee1d6b4619947dab9a16",
+          "source_sha256": "f0a60d437f6d0dd95e82e354bf9c8e9a57fc9cac0eacd5241ce6904f6a7b9add",
+          "frames": 49,
+          "fps": "12/1",
+          "size": [
+            384,
+            256
+          ],
+          "seconds": 4.083333
+        }
+      }
+    },
+    {
+      "title": "cloth-over-teapot",
+      "model": "H3 Teacher",
+      "source_case": "fast600/soft192_0188_cloth_cover",
+      "variant": "Same-case replay, seed 43096, selected for teapot occlusion. Video identity differs from the paper keyframe source.",
+      "release_review": "Synthetic scene.",
+      "media": {
+        "first-frame.webp": {
+          "sha256": "9aa56cf8fce8b36374159184a5046d2a6ecb967330a22daefa32e8058f14a562",
+          "size": [
+            384,
+            256
+          ],
+          "source_sha256": "d266393627b28bc20f8a48cf96191392d15a3204ef1e37142dca5dc781597aea"
+        },
+        "result.mp4": {
+          "sha256": "bf5eb139a45bd0900784bc276532cb1553be5e50b1966cbd299ace5ac127fcce",
+          "source_sha256": "b4287e9b528ec7797e07a3e1c35788d0f66b847ee55957e061918f059ed7cc86",
+          "frames": 90,
+          "fps": "24/1",
+          "size": [
+            576,
+            384
+          ],
+          "seconds": 3.75
+        },
+        "poster.webp": {
+          "sha256": "01758b9175e9ec3fcdb923bd827cece88408bdf41852790f7eb2bf1ac487d2b7",
+          "size": [
+            576,
+            384
+          ],
+          "presentation_time_seconds": 1.875
+        },
+        "particles.mp4": {
+          "sha256": "76e89141a3ce4c02ad2f3932578932ba7d5dfa5c581007cfa438c31e9dfe45b6",
+          "source_sha256": "e809fcacfcb228a0fe95f52feb514b1bcd4c86ca77047df0a2862ff1f7245304",
+          "frames": 61,
+          "fps": "12/1",
+          "size": [
+            384,
+            256
+          ],
+          "seconds": 5.083333
+        },
+        "depth.mp4": {
+          "sha256": "b0f966f9908ba1968b848addf1f325e49cc8e70d6980e99d6beea9afa00a7d60",
+          "source_sha256": "b28b89b248f1a02147770f28a56405babb0388e83d74e4ad13187fffbbf78f41",
+          "frames": 49,
+          "fps": "12/1",
+          "size": [
+            384,
+            256
+          ],
+          "seconds": 4.083333
+        }
+      }
+    },
+    {
+      "title": "blue-skirt",
+      "model": "Wan2.2-Fun-A14B-Control ParForce Teacher",
+      "source_case": "garment_candidate_0013_repair01__default",
+      "variant": "Teacher Showcase output, step 4000",
+      "release_review": "Synthetic garment scene.",
+      "media": {
+        "first-frame.webp": {
+          "sha256": "c84cde69100505b46bca182bade302f28b0a46454e5dc1f6063a46f18b2c2f2e",
+          "size": [
+            384,
+            256
+          ],
+          "source_sha256": "32d5b059d2370f41dc72ad1cb9a74c3e37462e97199cc9dfddd4d73b18152c40"
+        },
+        "result.mp4": {
+          "sha256": "7d69caa0a66f348a4f91916a9575aa22392997995bf278a8d7d1a6ad0b0fc8ad",
+          "source_sha256": "deebb422086302b08fd5869ab47b90a9f82dda94e3f5bb64856216276d45c3b7",
+          "frames": 49,
+          "fps": "12/1",
+          "size": [
+            384,
+            256
+          ],
+          "seconds": 4.083333
+        },
+        "poster.webp": {
+          "sha256": "379ea4b4c7e6b0213f928180e9e80537e1da38a248a6caa12a931cfdca664212",
+          "size": [
+            384,
+            256
+          ],
+          "presentation_time_seconds": 2.042
+        },
+        "particles.mp4": {
+          "sha256": "d23c512aa3c63f675580293a426f8bcdd6c02b23571adfae6bf5dbabd3061a5b",
+          "source_sha256": "d026752994ff1f90aa23b31078ff369e787a4cf9b0d085d5b8bb1d035fe787f7",
+          "frames": 49,
+          "fps": "12/1",
+          "size": [
+            384,
+            256
+          ],
+          "seconds": 4.083333
+        },
+        "depth.mp4": {
+          "sha256": "04b355e5de7ec80e95badcc2310f50bd81cfbe3a32c8b9b495b81b368773cbd2",
+          "source_sha256": "5125bc7880430b655d14bfcaabe7d2283f90cbc90af73e602615cedfe7e46717",
+          "frames": 49,
+          "fps": "12/1",
+          "size": [
+            384,
+            256
+          ],
+          "seconds": 4.083333
+        }
+      }
+    },
+    {
+      "title": "table-edge-roll",
+      "model": "Four-step ParForce Student",
+      "source_case": "Physics-IQ Verified / iq_0011",
+      "variant": "VLM continuation prompt qualitative",
+      "release_review": "Includes a benchmark first frame. Confirm the benchmark terms and public web redistribution.",
+      "credit_url": "https://arxiv.org/abs/2606.18943",
+      "media": {
+        "first-frame.webp": {
+          "sha256": "927daa801f3e5605334f2c7b1d80e642e1cb03b3d78188d41390d57d390d75c5",
+          "size": [
+            640,
+            384
+          ],
+          "source_sha256": "a918ce0bad6f3934d29f2305a4702a3adbccbf040c1ceaba0ceb4348a1494006"
+        },
+        "result.mp4": {
+          "sha256": "b206b21ff5efeff84a01166346411ca0a6b8ecad27ffd8e487ed9cd4efef6b51",
+          "source_sha256": "c9297c49ab90874b6e720da0bc2a10b7fe22ae746e229100322372f3ef4d1295",
+          "frames": 120,
+          "fps": "24/1",
+          "size": [
+            640,
+            384
+          ],
+          "seconds": 5.0
+        },
+        "poster.webp": {
+          "sha256": "33509da3fb9a58deda5cac661267ce9a02464d4452116390d1c3e9778cc3202d",
+          "size": [
+            640,
+            384
+          ],
+          "presentation_time_seconds": 2.5
+        }
+      }
+    },
+    {
+      "title": "toy-collision",
+      "model": "Four-step ParForce Student",
+      "source_case": "Physics-IQ Verified / iq_0008",
+      "variant": "VLM continuation prompt qualitative",
+      "release_review": "Includes a benchmark first frame. Confirm the benchmark terms and public web redistribution.",
+      "credit_url": "https://arxiv.org/abs/2606.18943",
+      "media": {
+        "first-frame.webp": {
+          "sha256": "af143fc3873598c24dc963f3f3c7d8c2765678e931da7231bc72851f13ad8dc1",
+          "size": [
+            640,
+            384
+          ],
+          "source_sha256": "c4bb1494b3e1e27e1788c7ec7e373b2e11b90f990498d48d2f4fcfb39c8b22dd"
+        },
+        "result.mp4": {
+          "sha256": "caf89e7081b09219631706e5f5a34e628363388415abfb2cbe2c071f71ca6480",
+          "source_sha256": "788679a9a6d06448a320f93015b719f1d384033f179a4cea2e41a23d73f5acfc",
+          "frames": 120,
+          "fps": "24/1",
+          "size": [
+            640,
+            384
+          ],
+          "seconds": 5.0
+        },
+        "poster.webp": {
+          "sha256": "1e4ef51a0235cef29fa8a029e7678136570eb0a63f67c75b06807b442853e882",
+          "size": [
+            640,
+            384
+          ],
+          "presentation_time_seconds": 2.5
+        }
+      }
+    },
+    {
+      "title": "ball-off-block",
+      "model": "Four-step ParForce Student",
+      "source_case": "Mixed real/synthetic suite / mix_014",
+      "variant": "VLM continuation prompt qualitative",
+      "release_review": "Check source media terms and public web redistribution.",
+      "media": {
+        "first-frame.webp": {
+          "sha256": "a2f63f7246864d1c9108f8fbabddde9298b77cbb2b2042a15bbd979c2f47702a",
+          "size": [
+            640,
+            384
+          ],
+          "source_sha256": "a98caa5d66c3a5e849b1bb82f0592a77ccf9bb4f7d96901b7b4cebb58ce6b7fe"
+        },
+        "result.mp4": {
+          "sha256": "a624a86f4ea2c647052598fb8ab183d4d81bea29d8e432327b8ae3465e6b5c17",
+          "source_sha256": "f49c902333eb92eee1253836e90676c8358c52e13e5f9131564ccb8a5c150ee5",
+          "frames": 120,
+          "fps": "24/1",
+          "size": [
+            640,
+            384
+          ],
+          "seconds": 5.0
+        },
+        "poster.webp": {
+          "sha256": "ef8274b42f782c5c481cc1939b449a912bba01c52d9d3bb52bf8ab9a0fc9e7c8",
+          "size": [
+            640,
+            384
+          ],
+          "presentation_time_seconds": 2.5
+        }
+      }
+    }
+  ]
+}

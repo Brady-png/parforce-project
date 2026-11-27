@@ -1,0 +1,539 @@
+[
+  {
+    "id": "milk-pour",
+    "title": "Milk pour",
+    "prompt": "Initial Scene: An empty blue-tinted faceted tumbler stands alone against a smooth pale-blue studio background.\nExternal Force: Tilt the pouring container to pour milk into the glass, with its outlet aimed into the glass opening. Fixed camera.",
+    "section": "Appendix F.2",
+    "paper_page": 16,
+    "inputs": [
+      {
+        "label": "Initial frame",
+        "src": "assets/showcase/milk-pour/inputs-1.png"
+      },
+      {
+        "label": "Particles (PSS)",
+        "src": "assets/showcase/milk-pour/inputs-2.mp4",
+        "poster": "assets/showcase/milk-pour/inputs-2.jpg"
+      },
+      {
+        "label": "Surface depth (SDS)",
+        "src": "assets/showcase/milk-pour/inputs-3.mp4",
+        "poster": "assets/showcase/milk-pour/inputs-3.jpg"
+      }
+    ],
+    "outputs": [
+      {
+        "label": "ParForce",
+        "src": "assets/showcase/milk-pour/videos-1.mp4",
+        "poster": "assets/showcase/milk-pour/videos-1.jpg",
+        "width": 384,
+        "height": 256
+      }
+    ],
+    "provenance": {
+      "video": "paper_figure_source",
+      "native_video_sha256": "b5239db77bf34e0429e92bf1fc9c37db37c7888463541d22bb2377734b48f03e",
+      "archive_sha256": {
+        "inputs-1.png": "b328632756ab273b615e835b13d1c36c458c39fb699f808362972e41f0779f58",
+        "inputs-2.mp4": "5c66866fbed7c7c4557406399cf0ae3879fa2e88ee64f287f5f7d06acf632c22",
+        "inputs-2.jpg": "8f5fa6e524d575e40e198a61fa88b6009a05597d901f28ba431efd299c09e1b9",
+        "inputs-3.mp4": "a0e83f04a5e0d20e0355561966d66e650fa69356f5c8b7dbeb8ae2b87e894ac7",
+        "inputs-3.jpg": "2d03e6dfa61957ac22f3537df66cf1bda8e66c4b7f8e60db4beec619e46783c0",
+        "videos-1.mp4": "cf6a7f2d6069d9c6beb920a82880627d6f8de598d2b62fa00c0a39943c3a42d7",
+        "videos-1.jpg": "cbf382072d790ba259f50eab9f8a15d2a53c043d53591d32079b8ff7e382d68c"
+      }
+    }
+  },
+  {
+    "id": "red-wine-pour",
+    "title": "Red wine pour",
+    "prompt": "Initial Scene: An empty blue-tinted faceted tumbler stands alone against a smooth pale-blue studio background.\nExternal Force: Tilt the pouring container to pour red wine into the glass, with its outlet aimed into the glass opening. Fixed camera.",
+    "section": "Appendix F.2",
+    "paper_page": 16,
+    "inputs": [
+      {
+        "label": "Initial frame",
+        "src": "assets/showcase/red-wine-pour/inputs-1.png"
+      },
+      {
+        "label": "Particles (PSS)",
+        "src": "assets/showcase/red-wine-pour/inputs-2.mp4",
+        "poster": "assets/showcase/red-wine-pour/inputs-2.jpg"
+      },
+      {
+        "label": "Surface depth (SDS)",
+        "src": "assets/showcase/red-wine-pour/inputs-3.mp4",
+        "poster": "assets/showcase/red-wine-pour/inputs-3.jpg"
+      }
+    ],
+    "outputs": [
+      {
+        "label": "ParForce",
+        "src": "assets/showcase/red-wine-pour/videos-1.mp4",
+        "poster": "assets/showcase/red-wine-pour/videos-1.jpg",
+        "width": 384,
+        "height": 256
+      }
+    ],
+    "provenance": {
+      "video": "paper_figure_source",
+      "native_video_sha256": "d2412b3219501a71e79177d913ebda04451f8851902923cd0b83e85c6c3a43e0",
+      "archive_sha256": {
+        "inputs-1.png": "b328632756ab273b615e835b13d1c36c458c39fb699f808362972e41f0779f58",
+        "inputs-2.mp4": "5c66866fbed7c7c4557406399cf0ae3879fa2e88ee64f287f5f7d06acf632c22",
+        "inputs-2.jpg": "8f5fa6e524d575e40e198a61fa88b6009a05597d901f28ba431efd299c09e1b9",
+        "inputs-3.mp4": "a0e83f04a5e0d20e0355561966d66e650fa69356f5c8b7dbeb8ae2b87e894ac7",
+        "inputs-3.jpg": "2d03e6dfa61957ac22f3537df66cf1bda8e66c4b7f8e60db4beec619e46783c0",
+        "videos-1.mp4": "43d8dee3c88a3e104ceadfa6a5a3ed6bf75848b2c16a47dc8025f2f3092eafae",
+        "videos-1.jpg": "e1166fb6ae8818d4a48a9d732e68acc432dc1557c667ff2861553b53e1b1bef6"
+      }
+    }
+  },
+  {
+    "id": "persimmons",
+    "title": "Persimmon stack",
+    "prompt": "Initial Scene: Three orange persimmons are stacked vertically on a pale pink surface against a pink background.\nExternal Force: Apply brief sideways pushes to the top and middle persimmons of the stack. Do not directly push the bottom persimmon. Fixed camera.",
+    "section": "Appendix F.2",
+    "paper_page": 16,
+    "inputs": [
+      {
+        "label": "Initial frame",
+        "src": "assets/showcase/persimmons/inputs-1.png"
+      },
+      {
+        "label": "Particles (PSS)",
+        "src": "assets/showcase/persimmons/inputs-2.mp4",
+        "poster": "assets/showcase/persimmons/inputs-2.jpg"
+      },
+      {
+        "label": "Surface depth (SDS)",
+        "src": "assets/showcase/persimmons/inputs-3.mp4",
+        "poster": "assets/showcase/persimmons/inputs-3.jpg"
+      }
+    ],
+    "outputs": [
+      {
+        "label": "ParForce",
+        "src": "assets/showcase/persimmons/videos-1.mp4",
+        "poster": "assets/showcase/persimmons/videos-1.jpg",
+        "width": 384,
+        "height": 256
+      }
+    ],
+    "note": "The first frame and depth were recovered from an archived preview for this run.",
+    "provenance": {
+      "video": "paper_figure_source",
+      "native_video_sha256": "a02946263898f7a1f7a38e488322bbcdaf6b82bb07e143732258ba368e9752bc",
+      "archive_sha256": {
+        "inputs-1.png": "a0348db8ae2f24b8961253a3017a9b3122c23f1beaa260da3f93f4b122bae04b",
+        "inputs-2.mp4": "3b810f056ad245b81528df4cc8b4a857c27fe1b138bb1b54d66d1eb5aaad9cdc",
+        "inputs-2.jpg": "568052de91ab544e222fe7c4794556b642af1d81340c3dea2fb363a4d0d30198",
+        "inputs-3.mp4": "f55aeb8642e7114e578004cdae377745881aa1f9e8b2066e4bbcd4731ab728ed",
+        "inputs-3.jpg": "0435ee82bd680fd50ac474a8d25c3de725d6c4eebd138830932ce4b48cdd7a0f",
+        "videos-1.mp4": "b2f6980a5deccc5f776b7b1f3a87e21894dac1d78b710679c48806f25f54afa7",
+        "videos-1.jpg": "bd5217fb67b088db655f4d19ff8527ba3a21e5f24b20ca47e693bc0ed5af0027"
+      }
+    }
+  },
+  {
+    "id": "blue-skirt",
+    "title": "Blue skirt fold",
+    "prompt": "Initial Scene: A light-blue flared skirt garment lies flat on a beige surface with its waistband at the top.\nExternal Force: Apply inward pulls at the two side edges of the skirt garment, then an upward pull at its lower edge. Fixed camera.",
+    "section": "Appendix F.2",
+    "paper_page": 16,
+    "inputs": [
+      {
+        "label": "Initial frame",
+        "src": "assets/showcase/blue-skirt/inputs-1.png"
+      },
+      {
+        "label": "Particles (PSS)",
+        "src": "assets/showcase/blue-skirt/inputs-2.mp4",
+        "poster": "assets/showcase/blue-skirt/inputs-2.jpg"
+      },
+      {
+        "label": "Surface depth (SDS)",
+        "src": "assets/showcase/blue-skirt/inputs-3.mp4",
+        "poster": "assets/showcase/blue-skirt/inputs-3.jpg"
+      }
+    ],
+    "outputs": [
+      {
+        "label": "ParForce",
+        "src": "assets/showcase/blue-skirt/videos-1.mp4",
+        "poster": "assets/showcase/blue-skirt/videos-1.jpg",
+        "width": 384,
+        "height": 256
+      }
+    ],
+    "provenance": {
+      "video": "paper_figure_source",
+      "native_video_sha256": "9f7b033a2b059dd29c681e41731746a0d991cbec29033aaf506f3d0b2bbfb420",
+      "archive_sha256": {
+        "inputs-1.png": "32d5b059d2370f41dc72ad1cb9a74c3e37462e97199cc9dfddd4d73b18152c40",
+        "inputs-2.mp4": "d026752994ff1f90aa23b31078ff369e787a4cf9b0d085d5b8bb1d035fe787f7",
+        "inputs-2.jpg": "9238f3d1aaf43cd768edafb7553b4703bbd98037eab591e436aee910753e7732",
+        "inputs-3.mp4": "5125bc7880430b655d14bfcaabe7d2283f90cbc90af73e602615cedfe7e46717",
+        "inputs-3.jpg": "eefeca4069e22cb006a631a0b704ada8d2434c0bdb6ea62e09a8a9602d144aa0",
+        "videos-1.mp4": "deebb422086302b08fd5869ab47b90a9f82dda94e3f5bb64856216276d45c3b7",
+        "videos-1.jpg": "97394f8493f90098f75f3d3cceed42dd53bd3098ba2ca91bb2ac661a07ebd621"
+      }
+    }
+  },
+  {
+    "id": "ball-and-boards",
+    "title": "Ball and upright boards",
+    "prompt": "Initial Scene: A black ball, a pale slab with an upright slender stick, and two dark boards rest on a beige surface. External Force: Strike the black ball hard toward the nearer upright board.",
+    "section": "Appendix F.2",
+    "paper_page": 15,
+    "inputs": [
+      {
+        "label": "Initial frame",
+        "src": "assets/showcase/ball-and-boards/inputs-1.png"
+      },
+      {
+        "label": "Particles (PSS)",
+        "src": "assets/showcase/ball-and-boards/inputs-2.mp4",
+        "poster": "assets/showcase/ball-and-boards/inputs-2.jpg"
+      },
+      {
+        "label": "Surface depth (SDS)",
+        "src": "assets/showcase/ball-and-boards/inputs-3.mp4",
+        "poster": "assets/showcase/ball-and-boards/inputs-3.jpg"
+      }
+    ],
+    "outputs": [
+      {
+        "label": "ParForce",
+        "src": "assets/showcase/ball-and-boards/videos-1.mp4",
+        "poster": "assets/showcase/ball-and-boards/videos-1.jpg",
+        "width": 576,
+        "height": 384
+      }
+    ],
+    "provenance": {
+      "video": "paper_figure_source",
+      "native_video_sha256": "fbda85b9dbd50bf69879088070c4962a94b70cc762adc7ad3d7a249d0ad5bee9",
+      "archive_sha256": {
+        "inputs-1.png": "d3c49a14239d14d5e0589159aeb9846eb097e7c1bc650331f19305061c49a7cf",
+        "inputs-2.mp4": "831c09fadb296868125816e145975c7cfd8801dd7fdce7eb26087b997be60a60",
+        "inputs-2.jpg": "f0977eaca0419fb1c3ee4bba8f16d876f6515c9979034c05511af612a7f4d864",
+        "inputs-3.mp4": "5f7b8eb358f1e92d5849eaa0aec4d614cb3db4b12f2147a42c2de44b3ff7ebfc",
+        "inputs-3.jpg": "ed042fb4530b84c63c4a785bf73f1a08afc71b6436e67bd4aaaf91a1109585df",
+        "videos-1.mp4": "2ef4c29ad1061f741d99215e8337b408765ba31b01ede2b386f11f694937407e",
+        "videos-1.jpg": "458ce7228cc1247649419104f824ea1f3a0bdde6ccc327609cc03d88c672ca28"
+      }
+    }
+  },
+  {
+    "id": "ball-and-bread",
+    "title": "Ball and bread",
+    "prompt": "Initial Scene: Two pale spheres and two pieces of bread rest on a tabletop. External Force: Push the left pale sphere toward the light bread.",
+    "section": "Appendix F.2",
+    "paper_page": 15,
+    "inputs": [
+      {
+        "label": "Initial frame",
+        "src": "assets/showcase/ball-and-bread/inputs-1.png"
+      },
+      {
+        "label": "Particles (PSS)",
+        "src": "assets/showcase/ball-and-bread/inputs-2.mp4",
+        "poster": "assets/showcase/ball-and-bread/inputs-2.jpg"
+      },
+      {
+        "label": "Surface depth (SDS)",
+        "src": "assets/showcase/ball-and-bread/inputs-3.mp4",
+        "poster": "assets/showcase/ball-and-bread/inputs-3.jpg"
+      }
+    ],
+    "outputs": [
+      {
+        "label": "ParForce",
+        "src": "assets/showcase/ball-and-bread/videos-1.mp4",
+        "poster": "assets/showcase/ball-and-bread/videos-1.jpg",
+        "width": 576,
+        "height": 384
+      }
+    ],
+    "provenance": {
+      "video": "paper_figure_source",
+      "native_video_sha256": "fca7a4759080cecbe35d32cfe91e804f66b766ba7a824551a5ed1e35a84811be",
+      "archive_sha256": {
+        "inputs-1.png": "10d26f760022b44220dbf533d079fa804b28b8dd11fc8ca47de5fe3bb2578940",
+        "inputs-2.mp4": "8ce0aa57a447491da5b9109e5a5df7d324cbf7b36229699463cfc4ea318b0550",
+        "inputs-2.jpg": "d13ddfac2e57ee002626ab52e7ff0afb20146fb8a712203317682af22a69e429",
+        "inputs-3.mp4": "6ab26919d50cf4e8f79b6277c650b92ab5e0ca79ce9239325d17e24bb9d8eb4c",
+        "inputs-3.jpg": "f3a7a5120fba14c911287fe444c706e753c7d03631bbc1313a8f504f380690ef",
+        "videos-1.mp4": "1b3256947bc6e28a1c260bfb93ba723b55540113645da56ef3b9d0f4c65c8717",
+        "videos-1.jpg": "4cdad8fdcb8ce11b31b24981dd00474086af4558886a1473d9c5e4a17d9e3636"
+      }
+    }
+  },
+  {
+    "id": "die",
+    "title": "Die on fabric",
+    "prompt": "Initial Scene: A white die sits at an angle on a gray textured surface. External Force: Turn the die slightly to face the camera squarely, then slide it to the right. Keep the same face up. Fixed camera.",
+    "section": "Appendix F.2",
+    "paper_page": 15,
+    "inputs": [
+      {
+        "label": "Initial frame",
+        "src": "assets/showcase/die/inputs-1.png"
+      },
+      {
+        "label": "Particles (PSS)",
+        "src": "assets/showcase/die/inputs-2.mp4",
+        "poster": "assets/showcase/die/inputs-2.jpg"
+      },
+      {
+        "label": "Surface depth (SDS)",
+        "src": "assets/showcase/die/inputs-3.mp4",
+        "poster": "assets/showcase/die/inputs-3.jpg"
+      }
+    ],
+    "outputs": [
+      {
+        "label": "ParForce (H3 Teacher)",
+        "src": "assets/showcase/die/videos-1.mp4",
+        "poster": "assets/showcase/die/videos-1.jpg",
+        "width": 384,
+        "height": 218
+      }
+    ],
+    "provenance": {
+      "video": "repaired_rigid_slide",
+      "native_video_sha256": "bfc1ba12f3a7655037f78b3fca3d8c1067cb4efce49b8107c037390f7afce8c1",
+      "source_input_sha256": {
+        "first_frame": "92fe7aec03d4da872fc47616e5d32eb9bb3224fadf765d4ea30a1090131e6eab",
+        "particle_path": "820d783ccc892360db0bd80b57833025be48ae04bd0290fcfc3780a87318e678",
+        "depth_path": "5b611b0db191f8da4d5df99e07e5f3e3da8e3d29d6b79dc25e7a404ee41b8c68"
+      },
+      "archive_sha256": {
+        "inputs-2.jpg": "5a4380d797f139930fcffd1460dda5326c69176283f0bf40832a437685123c9f",
+        "inputs-2.mp4": "a57fcb8a3171346823c7c3adf8e085a78a6ac0b4d82e4707e353aa260268c3d0",
+        "inputs-3.mp4": "16c888b71f02910fa442cb97d7d6869962dfeeee4ad329ba5c7f9f3f363e870a",
+        "videos-1.mp4": "dbdfaeae90c09ac47b456700094ccbcc363ccb95b4d63271d66f561fea7461ed",
+        "inputs-1.png": "92fe7aec03d4da872fc47616e5d32eb9bb3224fadf765d4ea30a1090131e6eab",
+        "inputs-3.jpg": "bb4ac82f96eda5a32a6f213653740b4275c8541a285a68a499004802f813defe",
+        "videos-1.jpg": "7431fd72bbf75d039aa080083bb0bf728a6d5074993503c5405a12ba8311d907"
+      }
+    }
+  },
+  {
+    "id": "bowling-pins",
+    "title": "Bowling pins",
+    "prompt": "Initial Scene: White bowling pins are grouped on grass, with some lying down. External Force: Push the upright pin firmly toward the right.",
+    "section": "Appendix F.2",
+    "paper_page": 15,
+    "inputs": [
+      {
+        "label": "Initial frame",
+        "src": "assets/showcase/bowling-pins/inputs-1.png"
+      },
+      {
+        "label": "Particles (PSS)",
+        "src": "assets/showcase/bowling-pins/inputs-2.mp4",
+        "poster": "assets/showcase/bowling-pins/inputs-2.jpg"
+      },
+      {
+        "label": "Surface depth (SDS)",
+        "src": "assets/showcase/bowling-pins/inputs-3.mp4",
+        "poster": "assets/showcase/bowling-pins/inputs-3.jpg"
+      }
+    ],
+    "outputs": [
+      {
+        "label": "ParForce",
+        "src": "assets/showcase/bowling-pins/videos-1.mp4",
+        "poster": "assets/showcase/bowling-pins/videos-1.jpg",
+        "width": 576,
+        "height": 384
+      }
+    ],
+    "provenance": {
+      "video": "paper_figure_source",
+      "native_video_sha256": "32bd6a80f6aa5a9fc7a8e671f723335ba7fe1020ba82c6dacdb37663152f777c",
+      "archive_sha256": {
+        "inputs-1.png": "b647fb0facc493659b6424cfbe25cf0319ddb21dd759e8165c796f9e9a481508",
+        "inputs-2.mp4": "aa7ad3c086d231953f033a72699c7051725cf7faced1d203c5e687cadcf281f5",
+        "inputs-2.jpg": "d6fb91584ab61615eb109fe276afeaf8f4e1aa875da841343ef1bb3b3de40486",
+        "inputs-3.mp4": "ff9a9fcc6ed30b9497317f68ca55523bc33d5e0bdead1ea86b0f771de7a85ff8",
+        "inputs-3.jpg": "3a08b58e968c7ac975cfb2b87c82d3c98f961a1fa83a8dc6d1c4e67c32cd3381",
+        "videos-1.mp4": "1919022373dd9f567937d1b855d861e50efde70010de2e7bb5eebd7a5723f946",
+        "videos-1.jpg": "02fa82161c619af6371ffd6b47b6f92ef3057a71f534367733950f8fcbe1a1ca"
+      }
+    }
+  },
+  {
+    "id": "paper-cups",
+    "title": "Paper cups",
+    "prompt": "Initial Scene: Three capped paper cups lie on a desk beside notebooks and pens. External Force: Push the left cup toward the middle cup.",
+    "section": "Appendix F.2",
+    "paper_page": 15,
+    "inputs": [
+      {
+        "label": "Initial frame",
+        "src": "assets/showcase/paper-cups/inputs-1.png"
+      },
+      {
+        "label": "Particles (PSS)",
+        "src": "assets/showcase/paper-cups/inputs-2.mp4",
+        "poster": "assets/showcase/paper-cups/inputs-2.jpg"
+      },
+      {
+        "label": "Surface depth (SDS)",
+        "src": "assets/showcase/paper-cups/inputs-3.mp4",
+        "poster": "assets/showcase/paper-cups/inputs-3.jpg"
+      }
+    ],
+    "outputs": [
+      {
+        "label": "ParForce",
+        "src": "assets/showcase/paper-cups/videos-1.mp4",
+        "poster": "assets/showcase/paper-cups/videos-1.jpg",
+        "width": 576,
+        "height": 384
+      }
+    ],
+    "provenance": {
+      "video": "paper_figure_source",
+      "native_video_sha256": "8de225188b93053936ece4da823a0d690b7af058fe376784ed2add5b7366b114",
+      "archive_sha256": {
+        "inputs-1.png": "84b065cb23a6246e27f8f2ce47ae65c0497c2806708b5a4fff99daa6240a2a7c",
+        "inputs-2.mp4": "bf2ad82e887edf32fab860844879d24631f2a41ae010d98ad9fc60ea8e5c3c45",
+        "inputs-2.jpg": "633604492bb2afa098e964d00b685646b9193298451ce52ef7e78453c472fbc8",
+        "inputs-3.mp4": "a6b70628c0c48b1f6f88752b90c51946d5a164f85ffdcf66c23986cdba04bbc8",
+        "inputs-3.jpg": "8617ed34fed4f7706010f8f9cd42d83a59868779206745eee18ed1f281d29274",
+        "videos-1.mp4": "f6d714ce726211b3ce079b7d3067cc090a68b9ce016d0bd179eedf67457748f7",
+        "videos-1.jpg": "fa303afbc7e3b32a21dcc73dab7f9614f9dee5395d3897b99c65ad06f67aa5da"
+      }
+    }
+  },
+  {
+    "id": "parforce-dominoes",
+    "title": "ParForce dominoes",
+    "prompt": "Initial Scene: Colored upright dominoes form the word ParForce on a light wooden tabletop.\nExternal Force: Push the upright dominoes from right toward the left. Fixed camera.",
+    "section": "Appendix F.2",
+    "paper_page": 16,
+    "inputs": [
+      {
+        "label": "Initial frame",
+        "src": "assets/showcase/parforce-dominoes/inputs-1.png"
+      },
+      {
+        "label": "Particles (PSS)",
+        "src": "assets/showcase/parforce-dominoes/inputs-2.mp4",
+        "poster": "assets/showcase/parforce-dominoes/inputs-2.jpg"
+      },
+      {
+        "label": "Surface depth (SDS)",
+        "src": "assets/showcase/parforce-dominoes/inputs-3.mp4",
+        "poster": "assets/showcase/parforce-dominoes/inputs-3.jpg"
+      }
+    ],
+    "outputs": [
+      {
+        "label": "ParForce",
+        "src": "assets/showcase/parforce-dominoes/videos-1.mp4",
+        "poster": "assets/showcase/parforce-dominoes/videos-1.jpg",
+        "width": 576,
+        "height": 324
+      }
+    ],
+    "note": "Appendix result with the original motion controls.",
+    "provenance": {
+      "video": "original_motion_comparison",
+      "source_input_sha256": {
+        "first_frame": "5143659320f156be799a17bc72e30a7bcdba629c52c88271672bd2a95e6e7110",
+        "particle_path": "73e0f779bfacfc5e788c5fa501cde7791f2d802870ed2a1235ecaf58f674174f",
+        "depth_path": "2d4311c93e390636cce4c419eb34a3b527f383a3c2434abd7cba4693954fccba"
+      },
+      "native_video_sha256": "7556a123c0a24728d21f121b029bcd947db21514c0c543348b1a0c1983d5f2b4",
+      "clips": [
+        {
+          "label": "Ours",
+          "seed": 130,
+          "native_video_sha256": "7556a123c0a24728d21f121b029bcd947db21514c0c543348b1a0c1983d5f2b4",
+          "viewport_xywh": [
+            0,
+            30,
+            576,
+            324
+          ],
+          "display_frames": 90,
+          "display_fps": 24
+        },
+        {
+          "label": "Go-with-the-Track",
+          "seed": 42,
+          "native_video_sha256": "3dd86ad72a614bc971210c2e3efe176cf81dd4706d0ff236ebd7608bf4d1f331",
+          "viewport_xywh": [
+            0,
+            38,
+            832,
+            404
+          ],
+          "display_frames": 90,
+          "display_fps": 24
+        },
+        {
+          "label": "RealWonder",
+          "seed": 42,
+          "native_video_sha256": "760f10039f82d34bd94a3eff0c3adc0976e4ac92f94019580be7c423ad8a5f25",
+          "viewport_xywh": [
+            0,
+            38,
+            832,
+            404
+          ],
+          "display_frames": 90,
+          "display_fps": 24
+        },
+        {
+          "label": "Go-with-the-Flow",
+          "seed": 42,
+          "native_video_sha256": "96e0d0ab41ccfea00ed13307a671ae3664ffb17c73f000fc920993d43da18693",
+          "viewport_xywh": [
+            0,
+            38,
+            720,
+            404
+          ],
+          "display_frames": 90,
+          "display_fps": 24
+        },
+        {
+          "label": "Tora",
+          "seed": 42,
+          "native_video_sha256": "83de0471ce3c5bd8955b86a1404a7c4c3557d3ea6c1dfe73bb68113baddd84d8",
+          "viewport_xywh": [
+            0,
+            38,
+            720,
+            404
+          ],
+          "display_frames": 90,
+          "display_fps": 24
+        }
+      ],
+      "archive_sha256": {
+        "inputs-1.png": "5143659320f156be799a17bc72e30a7bcdba629c52c88271672bd2a95e6e7110",
+        "inputs-2.jpg": "f4b008d68dfd41b9f4e93490822f863bcc155f83b23a75a50b9031fbcd531644",
+        "inputs-2.mp4": "ef737158bb4b4e0f7a75aa95f13c7eb81676d2ecd47bc686329fcba458d9df59",
+        "inputs-3.jpg": "edefbc38c2a501188ab3ba727836e98fb5227aacbb61842adedac55fa491b969",
+        "inputs-3.mp4": "6e58c63d7388577e551ec78166ef836798da46ef5da3714504ca6b576b7560c5",
+        "videos-1.jpg": "e0e2276b8cf66d5425f93f9b683649b9b2d108c7e78893b084457d1fdd81ec1d",
+        "videos-1.mp4": "b4bd69f747e3772f080e468ba3d04bd1c1e8c4c88f00d36be9b448b0287f90f7",
+        "videos-2.jpg": "482cdd3ae93210a0886a5239e6baf62f5c3050ced4bdf3404a35aa1485554be8",
+        "videos-2.mp4": "4aad8c94a2ec393a79d2d00a7bbdd70122c3a94544c29474e723bfd7f6dc3fc2",
+        "videos-3.jpg": "f17e2db22c5a1da2b91bffe2613a62cc621102355081f9f2c80ee5f914ad9d34",
+        "videos-3.mp4": "64771890663f3dad9bcf7d1d5b50a0ea29b037be97c5d6abef9a8e76fc66d6e6",
+        "videos-4.jpg": "18097a5a3bb7463f34273c3575b623a647bc43ce6e586b2763293094f7058bbf",
+        "videos-4.mp4": "35ffff59e233c2d8326b43fa62292c0dcd3989d0de5c5388f4637b4bea5ecbaf",
+        "videos-5.jpg": "d011eb1188caa2a2f07996982234766277b5f998d17b32569e920894a888076a",
+        "videos-5.mp4": "56b224c338a9fbe01b8eabecbc7ea75613435f1a58ce019de4c1b17f67b335ea"
+      }
+    }
+  }
+]

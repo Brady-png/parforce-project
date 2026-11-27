@@ -1,0 +1,93 @@
+{
+  "conditions": {
+    "Ours": [
+      {
+        "label": "Particles (PSS)",
+        "src": "assets/paper-qualitative/macarons/inputs-2.mp4",
+        "poster": "assets/paper-qualitative/macarons/inputs-2.jpg"
+      },
+      {
+        "label": "Surface depth (SDS)",
+        "src": "assets/paper-qualitative/macarons/inputs-3.mp4",
+        "poster": "assets/paper-qualitative/macarons/inputs-3.jpg"
+      }
+    ],
+    "Go-with-the-Track": [
+      {
+        "label": "Point tracks",
+        "src": "assets/teacher-conditions/macarons/gwtt-tracks.mp4",
+        "poster": "assets/teacher-conditions/macarons/gwtt-tracks.jpg"
+      }
+    ],
+    "RealWonder": [
+      {
+        "label": "Rendered RGB proxy",
+        "src": "assets/teacher-conditions/macarons/realwonder-rgb-proxy.mp4",
+        "poster": "assets/teacher-conditions/macarons/realwonder-rgb-proxy.jpg"
+      },
+      {
+        "label": "Optical flow for noise warping",
+        "src": "assets/teacher-conditions/macarons/realwonder-flow.mp4",
+        "poster": "assets/teacher-conditions/macarons/realwonder-flow.jpg"
+      }
+    ],
+    "Go-with-the-Flow": [
+      {
+        "label": "Optical flow for noise warping",
+        "src": "assets/teacher-conditions/macarons/gwtf-flow.mp4",
+        "poster": "assets/teacher-conditions/macarons/gwtf-flow.jpg"
+      }
+    ],
+    "Tora": [
+      {
+        "label": "Sparse trajectories",
+        "src": "assets/teacher-conditions/macarons/tora-tracks.mp4",
+        "poster": "assets/teacher-conditions/macarons/tora-tracks.jpg"
+      }
+    ]
+  },
+  "provenance": {
+    "outputs": "The panels were extracted from the archived matched comparison and retain its original insets.",
+    "Go-with-the-Track": "The original condition inset was extracted from the same archived comparison.",
+    "RealWonder": "RGB proxy re-exported from the original frozen geometry and motion; optical flow visualized from the archived condition.",
+    "Go-with-the-Flow": "Archived flow visualization.",
+    "Tora": "Hash-verified input trajectories."
+  },
+  "outputs": [
+    {
+      "label": "Ours",
+      "src": "assets/teacher-conditions/macarons/ours-output.mp4",
+      "poster": "assets/teacher-conditions/macarons/ours-output.jpg",
+      "width": 480,
+      "height": 270
+    },
+    {
+      "label": "Go-with-the-Track",
+      "src": "assets/teacher-conditions/macarons/gwtt-output.mp4",
+      "poster": "assets/teacher-conditions/macarons/gwtt-output.jpg",
+      "width": 480,
+      "height": 270
+    },
+    {
+      "label": "RealWonder",
+      "src": "assets/teacher-conditions/macarons/realwonder-output.mp4",
+      "poster": "assets/teacher-conditions/macarons/realwonder-output.jpg",
+      "width": 480,
+      "height": 270
+    },
+    {
+      "label": "Go-with-the-Flow",
+      "src": "assets/teacher-conditions/macarons/gwtf-output.mp4",
+      "poster": "assets/teacher-conditions/macarons/gwtf-output.jpg",
+      "width": 480,
+      "height": 270
+    },
+    {
+      "label": "Tora",
+      "src": "assets/teacher-conditions/macarons/tora-output.mp4",
+      "poster": "assets/teacher-conditions/macarons/tora-output.jpg",
+      "width": 480,
+      "height": 270
+    }
+  ]
+}

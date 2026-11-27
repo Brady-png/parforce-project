@@ -1,0 +1,66 @@
+{
+  "Ours": [
+    {
+      "label": "Particles (PSS)",
+      "src": "assets/paper-qualitative/turquoise-cup/inputs-2.mp4",
+      "poster": "assets/paper-qualitative/turquoise-cup/inputs-2.jpg"
+    },
+    {
+      "label": "Surface depth (SDS)",
+      "src": "assets/paper-qualitative/turquoise-cup/inputs-3.mp4",
+      "poster": "assets/paper-qualitative/turquoise-cup/inputs-3.jpg"
+    }
+  ],
+  "Go-with-the-Track": [
+    {
+      "label": "Visible point tracks",
+      "src": "assets/teacher-conditions/turquoise-cup/gwwt-tracks.mp4",
+      "poster": "assets/teacher-conditions/turquoise-cup/gwwt-tracks.jpg",
+      "receipt": "Exact official loader preview verified against its inference receipt.",
+      "sourceSha256": "60d33eba5b1fe40c94f1e611efefdb19166c613abbf06f997c29d85b47b56c2c"
+    }
+  ],
+  "RealWonder": [
+    {
+      "label": "Rendered RGB proxy",
+      "src": "assets/teacher-conditions/turquoise-cup/realwonder-rgb-proxy.mp4",
+      "poster": "assets/teacher-conditions/turquoise-cup/realwonder-rgb-proxy.jpg",
+      "receipt": "Synthetic RGB input from the archived conditioning pack.",
+      "sourceSha256": "b57202c95b463f208da1dd3d5d9b378bb3776f8b2d9984f25533992a5559024f"
+    },
+    {
+      "label": "Driving optical flow",
+      "src": "assets/teacher-conditions/turquoise-cup/realwonder-flow.mp4",
+      "poster": "assets/teacher-conditions/turquoise-cup/realwonder-flow.jpg",
+      "receipt": "Color visualization of the archived flow used to warp noise.",
+      "sourceSha256": "b57202c95b463f208da1dd3d5d9b378bb3776f8b2d9984f25533992a5559024f"
+    }
+  ],
+  "Go-with-the-Flow": [
+    {
+      "label": "Driving optical flow",
+      "src": "assets/teacher-conditions/turquoise-cup/gwf-flow.mp4",
+      "poster": "assets/teacher-conditions/turquoise-cup/gwf-flow.jpg",
+      "receipt": "Color visualization of the archived flow used to warp noise.",
+      "sourceSha256": "6d0899475af9bcfd1e30d4e95646a1aab9bfbbc53dff0d975a2c8326eef0412c"
+    }
+  ],
+  "Tora": [
+    {
+      "label": "Sparse point trajectories",
+      "src": "assets/teacher-conditions/turquoise-cup/tora-tracks.mp4",
+      "poster": "assets/teacher-conditions/turquoise-cup/tora-tracks.jpg",
+      "receipt": "Rendered from the model input coordinates captured in the inference receipt.",
+      "sourceTrackSha256": {
+        "00.txt": "7409e563903b24783cf853a4813f9c09c180fa5b66a888bd89a97393f2927b69",
+        "01.txt": "d4b885a871fc2bfb9a6ae964d8975508be143359c5f4157f13ca6cd7ba9a3fa5",
+        "02.txt": "7f8037f2889fd51b682dba200ed771cf0f1069ec6529556866446f4f11707240",
+        "03.txt": "d6093e567d33bfe7bc2fc27b5c060bfeeb0483a4bcab15e85b18fa45ad938e46",
+        "04.txt": "e4740490d21c7be622eee705be2c8de073f2b4890599881ca30a06ca70d9f47b",
+        "05.txt": "e69ff2c3c2161cab20ed2e76719098072e8739197e82323a8e263c0c38840a17",
+        "06.txt": "a0270f9e4f2f8f0663c8867725d954b9b8ee40f5add99828266e2ffa6d80db25",
+        "07.txt": "dda0f33d694dbae63c60b84357ccef5f6f1f9f6047b467ebb8da7a06729b0745"
+      }
+    }
+  ]
+}

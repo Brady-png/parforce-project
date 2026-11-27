@@ -1,0 +1,58 @@
+{
+  "conditions": {
+    "Ours": [
+      {
+        "label": "Particles (PSS)",
+        "src": "assets/paper-qualitative/dominoes/inputs-2.mp4",
+        "poster": "assets/paper-qualitative/dominoes/inputs-2.jpg"
+      },
+      {
+        "label": "Surface depth (SDS)",
+        "src": "assets/paper-qualitative/dominoes/inputs-3.mp4",
+        "poster": "assets/paper-qualitative/dominoes/inputs-3.jpg"
+      }
+    ],
+    "Go-with-the-Track": [
+      {
+        "label": "Point tracks",
+        "src": "assets/teacher-conditions/dominoes/gwtt-tracks.mp4",
+        "poster": "assets/teacher-conditions/dominoes/gwtt-tracks.jpg"
+      }
+    ],
+    "RealWonder": [
+      {
+        "label": "Simulation render",
+        "src": "assets/teacher-conditions/dominoes/realwonder-proxy.mp4",
+        "poster": "assets/teacher-conditions/dominoes/realwonder-proxy.jpg"
+      },
+      {
+        "label": "Optical flow for noise warping",
+        "src": "assets/teacher-conditions/dominoes/realwonder-flow.mp4",
+        "poster": "assets/teacher-conditions/dominoes/realwonder-flow.jpg"
+      }
+    ],
+    "Go-with-the-Flow": [
+      {
+        "label": "Optical flow for noise warping",
+        "src": "assets/teacher-conditions/dominoes/gwtf-flow.mp4",
+        "poster": "assets/teacher-conditions/dominoes/gwtf-flow.jpg"
+      }
+    ],
+    "Tora": [
+      {
+        "label": "Sparse trajectories",
+        "src": "assets/teacher-conditions/dominoes/tora-tracks.mp4",
+        "poster": "assets/teacher-conditions/dominoes/tora-tracks.jpg"
+      }
+    ]
+  },
+  "provenance": {
+    "Go-with-the-Track": {
+      "official_loader_replay": true,
+      "archived_preview_hash_matches": true
+    },
+    "RealWonder": "Archived simulation render and hash-verified motion field.",
+    "Go-with-the-Flow": "Hash-verified motion field.",
+    "Tora": "Hash-verified input trajectories."
+  }
+}

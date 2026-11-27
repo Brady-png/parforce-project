@@ -1,0 +1,66 @@
+{
+  "Ours": [
+    {
+      "label": "Particles (PSS)",
+      "src": "assets/paper-qualitative/book-pull/inputs-2.mp4",
+      "poster": "assets/paper-qualitative/book-pull/inputs-2.jpg"
+    },
+    {
+      "label": "Surface depth (SDS)",
+      "src": "assets/paper-qualitative/book-pull/inputs-3.mp4",
+      "poster": "assets/paper-qualitative/book-pull/inputs-3.jpg"
+    }
+  ],
+  "Go-with-the-Track": [
+    {
+      "label": "Visible point tracks",
+      "src": "assets/teacher-conditions/book-pull/gwwt-tracks.mp4",
+      "poster": "assets/teacher-conditions/book-pull/gwwt-tracks.jpg",
+      "receipt": "Exact official loader preview verified against its inference receipt.",
+      "sourceSha256": "4c7725ec8fb0e8af07a225f0cc3add315f8b1aa6586832f18ba010a41314486b"
+    }
+  ],
+  "RealWonder": [
+    {
+      "label": "Rendered RGB proxy",
+      "src": "assets/teacher-conditions/book-pull/realwonder-rgb-proxy.mp4",
+      "poster": "assets/teacher-conditions/book-pull/realwonder-rgb-proxy.jpg",
+      "receipt": "Synthetic RGB input from the archived conditioning pack.",
+      "sourceSha256": "1c4f85ae13813ff6ce68b359e6bb0b0276cdedc1f56746210b4022843fb080ae"
+    },
+    {
+      "label": "Driving optical flow",
+      "src": "assets/teacher-conditions/book-pull/realwonder-flow.mp4",
+      "poster": "assets/teacher-conditions/book-pull/realwonder-flow.jpg",
+      "receipt": "Color visualization of the archived flow used to warp noise.",
+      "sourceSha256": "1c4f85ae13813ff6ce68b359e6bb0b0276cdedc1f56746210b4022843fb080ae"
+    }
+  ],
+  "Go-with-the-Flow": [
+    {
+      "label": "Driving optical flow",
+      "src": "assets/teacher-conditions/book-pull/gwf-flow.mp4",
+      "poster": "assets/teacher-conditions/book-pull/gwf-flow.jpg",
+      "receipt": "Color visualization of the archived flow used to warp noise.",
+      "sourceSha256": "c9fdef4a3760e17346b3a63b3c9cc037c1f341b1018722ef8343408872a72656"
+    }
+  ],
+  "Tora": [
+    {
+      "label": "Sparse point trajectories",
+      "src": "assets/teacher-conditions/book-pull/tora-tracks.mp4",
+      "poster": "assets/teacher-conditions/book-pull/tora-tracks.jpg",
+      "receipt": "Rendered from the model input coordinates captured in the inference receipt.",
+      "sourceTrackSha256": {
+        "00.txt": "95f310e0aeac355b80f9ac479c8d994004a4a25a73186543779be8b7a28f0194",
+        "01.txt": "39afd469ad2de5ae46921a14a2ae00a7309c1f5b726ac590fbd308c852ea448b",
+        "02.txt": "ed8228e269b66a10a2ad791fc1d7aafca764aa46b71fdd56eea395b3e83bd8ed",
+        "03.txt": "4155660e6dd5b7f7e3c7b22d184f8e30072a1576a009e0533ad4e8a4547b2573",
+        "04.txt": "b1ab223154f6c305184f4cc94eb80cdb9c33513c86d94b175633e0d96e4d5baf",
+        "05.txt": "a185113b5a5bcf06c501c313ecdcadb1257fb1e047f1ef0d89a29ba0ea14d618",
+        "06.txt": "6955ac682f4d7242c4b91e6b3e1a0e9e939451b41c99e809cf310a8ed71815b9",
+        "07.txt": "30827588109dcac4566c363a8920c20dd171cebfc98499d893c814101ad7ad14"
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "ParForce": [
+    {
+      "label": "Particles (PSS)",
+      "src": "assets/showcase/parforce-dominoes/inputs-2.mp4",
+      "poster": "assets/showcase/parforce-dominoes/inputs-2.jpg"
+    },
+    {
+      "label": "Surface depth (SDS)",
+      "src": "assets/showcase/parforce-dominoes/inputs-3.mp4",
+      "poster": "assets/showcase/parforce-dominoes/inputs-3.jpg"
+    }
+  ],
+  "Go-with-the-Track": [
+    {
+      "label": "Visible point tracks",
+      "src": "assets/teacher-conditions/parforce-dominoes/gwwt-tracks.mp4",
+      "poster": "assets/teacher-conditions/parforce-dominoes/gwwt-tracks.jpg",
+      "receipt": "Exact official loader preview verified against its inference receipt.",
+      "sourceSha256": "f7209675567d4c724b4071eec55effb0d303b459f95699d50ac1c4a9cc93c6c5"
+    }
+  ],
+  "RealWonder": [
+    {
+      "label": "Rendered RGB proxy",
+      "src": "assets/teacher-conditions/parforce-dominoes/realwonder-rgb-proxy.mp4",
+      "poster": "assets/teacher-conditions/parforce-dominoes/realwonder-rgb-proxy.jpg",
+      "receipt": "Synthetic RGB input from the archived conditioning pack.",
+      "sourceSha256": "168ee1d0777a0458a982afdd99daa6afe66cf25526104897ae5253b57458095d"
+    },
+    {
+      "label": "Driving optical flow",
+      "src": "assets/teacher-conditions/parforce-dominoes/realwonder-flow.mp4",
+      "poster": "assets/teacher-conditions/parforce-dominoes/realwonder-flow.jpg",
+      "receipt": "Color visualization of the archived flow used to warp noise.",
+      "sourceSha256": "168ee1d0777a0458a982afdd99daa6afe66cf25526104897ae5253b57458095d"
+    }
+  ],
+  "Go-with-the-Flow": [
+    {
+      "label": "Driving optical flow",
+      "src": "assets/teacher-conditions/parforce-dominoes/gwf-flow.mp4",
+      "poster": "assets/teacher-conditions/parforce-dominoes/gwf-flow.jpg",
+      "receipt": "Color visualization of the archived flow used to warp noise.",
+      "sourceSha256": "8519bc41d6dd9f2d55d5cd65207cdf8697cb8429e18924a88d3d9a54984aad4e"
+    }
+  ],
+  "Tora": [
+    {
+      "label": "Sparse point trajectories",
+      "src": "assets/teacher-conditions/parforce-dominoes/tora-tracks.mp4",
+      "poster": "assets/teacher-conditions/parforce-dominoes/tora-tracks.jpg",
+      "receipt": "Rendered from the model input coordinates captured in the inference receipt.",
+      "sourceTrackSha256": {
+        "00.txt": "65b6f581eb0b1c5df7e0662ba5c387b3f5d1de26ffac24108916895141cc7ca0",
+        "01.txt": "a2673bbc0b651c4e5f232d20667a5aa6823efa800061d94c043e80bc3bf63452",
+        "02.txt": "7aa9a471d3c7ed992cc43db3d7340f40e567c6622235267969d23ee8dd117b06",
+        "03.txt": "edbf853c129d7fb060cab139b1dd428d0b5c142c5c74e3dfcea8f4cb3e8d6867",
+        "04.txt": "77687ed2eeb3e01b5eae02603a8c5badbd996d52933e0389d88b1880fc46b554",
+        "05.txt": "4c323c11d838ac3a172c02fd2b9293580d70045a2308a69870ad1a9e76855021",
+        "06.txt": "480d2fab846c13e11768e137026a2ccbd58cacfb2727b7140741194966cce945",
+        "07.txt": "d38fca4d4099a15a2fd8e2d2235628e91e88b182f828e7c0fda2e2a045dc8b28"
+      }
+    }
+  ]
+}
