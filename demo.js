@@ -80,16 +80,6 @@ function panel(item) {
   return figure;
 }
 
-function fitShowcaseColumns(media, conditions, output) {
-  // Equalize the native video heights after accounting for the extra captions on the left.
-  const heightPerWidth = conditions.reduce((sum, item) => sum + item.height / item.width, 0);
-  const outputAspect = output.width / output.height;
-  const controlShare = 1 / (1 + outputAspect * heightPerWidth);
-  media.style.setProperty("--control-share", controlShare * 100 + "%");
-  media.style.setProperty("--control-fraction", controlShare);
-  media.style.setProperty("--caption-weight", outputAspect * controlShare * (conditions.length - 1));
-}
-
 const shortConditionLabels = {
   "Particles (PSS)": "Particles",
   "Surface depth (SDS)": "Depth",
@@ -164,8 +154,6 @@ function setupGallery(gallery) {
     const teacherConditions = activeGroup === "teacher" ? item.conditions : null;
     const showcase = activeGroup === "showcase";
     media.classList.toggle("showcase-media", showcase);
-    media.classList.toggle("teaser-comparison", activeGroup === "teacher" && item.id === "parforce-dominoes");
-    media.classList.toggle("macaron-comparison", activeGroup === "teacher" && item.id === "macarons");
     for (const button of scenes.querySelectorAll("button")) {
       button.setAttribute("aria-pressed", String(button.dataset.scene === item.id));
     }
@@ -184,7 +172,6 @@ function setupGallery(gallery) {
     inputs.dataset.count = sharedPanels.length;
     inputs.replaceChildren(...sharedPanels.map(panel));
     const shownOutputs = showcase ? [{ ...item.outputs[0], label: "ParForce" }] : item.outputs;
-    if (showcase) fitShowcaseColumns(media, sharedPanels, shownOutputs[0]);
     outputs.style.setProperty("--columns", shownOutputs.length);
     outputs.dataset.count = shownOutputs.length;
     outputs.replaceChildren(...shownOutputs.map(output => teacherConditions
