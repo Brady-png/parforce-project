@@ -1276,6 +1276,90 @@ const galleryCases = {
           "height": 604
         }
       ]
+    },
+    {
+      "id": "paper-smoke",
+      "title": "Paper smoke",
+      "prompt": "Static locked-off single-shot with fixed frame throughout filmed with constant framerate in real-time. The scene shows a realistic scientific demonstration. The scene only contains the described setup and actions. The piece of folded paper sits on a glass cutting board. The piece of folded paper is burning while white smoke is emitting from it.",
+      "note": "With the official benchmark prompt, ParForce scores 96.38 versus 52.83 for H3 Turbo4, a gain of 43.55 points. ParForce keeps the smoke rising from the paper. H3 Turbo4 adds a bright expanding ring and flames.",
+      "inputs": [
+        {
+          "label": "Initial frame",
+          "src": "assets/paper-qualitative/paper-smoke/inputs-1.png"
+        }
+      ],
+      "outputs": [
+        {
+          "label": "Official-prompt comparison",
+          "src": "assets/paper-qualitative/paper-smoke/videos-1.mp4",
+          "poster": "assets/paper-qualitative/paper-smoke/videos-1.jpg",
+          "width": 1920,
+          "height": 604
+        }
+      ]
+    },
+    {
+      "id": "ball-and-block-fall",
+      "title": "Ball and block fall",
+      "prompt": "Static locked-off single-shot with fixed frame throughout filmed with constant framerate in real-time. The scene shows a realistic scientific demonstration. The scene only contains the described setup and actions. Two pillows are on a table and two grabber tools are positioned above them. The grabber tools release the brown tennis ball and the orange block.",
+      "note": "With the official benchmark prompt, ParForce scores 48.60 versus 6.45 for H3 Turbo4, a gain of 42.15 points. ParForce shows both objects falling and coming to rest on the pillow. In H3 Turbo4, the block stays near the clamp and a person with a racket appears.",
+      "inputs": [
+        {
+          "label": "Initial frame",
+          "src": "assets/paper-qualitative/ball-and-block-fall/inputs-1.png"
+        }
+      ],
+      "outputs": [
+        {
+          "label": "Official-prompt comparison",
+          "src": "assets/paper-qualitative/ball-and-block-fall/videos-1.mp4",
+          "poster": "assets/paper-qualitative/ball-and-block-fall/videos-1.jpg",
+          "width": 1920,
+          "height": 604
+        }
+      ]
+    },
+    {
+      "id": "rolling-reflection",
+      "title": "Rolling reflection",
+      "prompt": "Static locked-off single-shot with fixed frame throughout filmed with constant framerate in real-time. The scene shows a realistic scientific demonstration. The scene only contains the described setup and actions. The 30lb kettlebell sits next to a mirror that reflects the kettlebell on a wooden table. The tennis ball rolls slowly towards the 30lb kettlebell next to a mirror and hits the kettlebell.",
+      "note": "With the official benchmark prompt, ParForce scores 56.77 versus 14.53 for H3 Turbo4, a gain of 42.23 points. ParForce shows the tennis ball approaching the kettlebell and stopping while the kettlebell stays in place. H3 Turbo4 introduces a hand that moves the kettlebell.",
+      "inputs": [
+        {
+          "label": "Initial frame",
+          "src": "assets/paper-qualitative/rolling-reflection/inputs-1.png"
+        }
+      ],
+      "outputs": [
+        {
+          "label": "Official-prompt comparison",
+          "src": "assets/paper-qualitative/rolling-reflection/videos-1.mp4",
+          "poster": "assets/paper-qualitative/rolling-reflection/videos-1.jpg",
+          "width": 1920,
+          "height": 604
+        }
+      ]
+    },
+    {
+      "id": "ball-rolls-across-table",
+      "title": "Ball rolls across table",
+      "prompt": "Static locked-off single-shot with fixed frame throughout filmed with constant framerate in real-time. The scene shows a realistic scientific demonstration. The scene only contains the described setup and actions. A light-colored wooden coffee table with a few small objects on it, including a brown tennis ball and a smaller red ball. The orange tennis ball rolls straight out of the black pipe over the entire table towards the right side.",
+      "note": "With the official benchmark prompt, ParForce scores 23.05 versus 1.93 for H3 Turbo4, a gain of 21.12 points. ParForce keeps a single rolling ball and a fixed camera. H3 Turbo4 introduces a second ball and later changes the viewpoint.",
+      "inputs": [
+        {
+          "label": "Initial frame",
+          "src": "assets/paper-qualitative/ball-rolls-across-table/inputs-1.png"
+        }
+      ],
+      "outputs": [
+        {
+          "label": "Official-prompt comparison",
+          "src": "assets/paper-qualitative/ball-rolls-across-table/videos-1.mp4",
+          "poster": "assets/paper-qualitative/ball-rolls-across-table/videos-1.jpg",
+          "width": 1920,
+          "height": 604
+        }
+      ]
     }
   ],
   "showcase": [

@@ -49,7 +49,8 @@ const galleryNotes = {
   student: "For selected examples, a vision-language model (VLM) predicts a description of future motion from the first frame and initial text. Every method receives the same description. This lets us assess the visual priors learned from the teacher separately from the ability to predict physical motion.",
 };
 
-const studentCases = [...galleryCases["physics-iq"], ...galleryCases.student];
+const benchmarkCases = galleryCases["physics-iq"];
+const studentCases = [...benchmarkCases, ...galleryCases.student];
 
 function casesForGroup(group) {
   return group === "student" ? studentCases : galleryCases[group];
@@ -161,7 +162,7 @@ function setupGallery(gallery) {
     gallery.querySelector(".case-prompt").textContent = item.prompt;
     caseNote.textContent = item.note || "";
     caseNote.hidden = !item.note;
-    caseNote.classList.toggle("case-score", item.id === "roll-into-box");
+    caseNote.classList.toggle("case-score", benchmarkCases.includes(item));
 
     const sourcePanels = item.inputs || [];
     const firstFrame = sourcePanels.find(item => item.label === "Initial frame");
